@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="signup">
+        <form onsubmit="return validatepassword()">
+            <br>
+            <h2 style="text-align: center;">Signup</h2><br>
+            <label for="fname">Firstname</lable><br>
+            <input id="fname" type="text" ><br><br>
+            <label for="lname">Lastname</lable><br>
+            <input id="lname" type="text"><br><br>
+            <label for="email">Email</label><br>
+            <input id="email" type="email"><br><br>
+            <label for="password">Password</lable><br>
+            <input id="password" type="password">
+            <input type="checkbox" onclick="showpassword()" style="font-size: medium;width:10%">Show Password<br>
+            <br>
+            <label for="repassword">Re-enter password</lable><br>
+            <input id="repassword"  type="password"  onkeyup="validatepassword()">
+            <span id="wrong_pass_alert"></span><br>
+            <input type="checkbox" onclick="showrepassword()" style="font-size: medium;width:10%" >Show Password<br>
+            <br>
+            <input type="submit" value=" Sign Up " style="padding:5px 0" onclick="validatepassword()"><br><br>
+            <p><strong>If already have account?</strong> <a href="login.html">Login</a></P>
+        </form>
+        <script src="script.js">
+
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+}
+.login{
+    
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+
+}
+.login form{
+    border:1px solid black;
+    padding:0px 20px 80px 20px;
+    border-radius: 25%;
+}
+.login form label{
+    font-size:large;
+    font-weight:600;
+}
+.signup{
+    
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+
+
+}
+.signup form{
+    border:1px solid black;
+    padding:0px 20px 80px 20px;
+    border-radius: 25%;
+}
+
+.signup form label{
+   
+    font-weight:600;
+}
+input{
+    width:100%;
+    padding:5px 0;
+   
+    
+}
+form{
+    background-color: aliceblue;
+}
